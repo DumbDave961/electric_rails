@@ -34,7 +34,7 @@ carts:register_rail("electric_rails:lv_rail", {
 --override copper rail
 minetest.override_item("moreores:copper_rail", {
 	groups = carts:get_rail_groups({technic_machine = 1, technic_lv = 1}),
-	connect_sides = {"front", "back", "bottom"},
+	connect_sides = {"front", "left", "back", "right", "bottom"},
 	technic_run = rail_run,
 	on_construct = function(pos)
 		meta:set_string("infotext", desc)
