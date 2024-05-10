@@ -1,5 +1,0 @@
-#	Rails to use:
-#	-	Technic:  LV Rails for Technic enabled.
-#	-	Elepower: Powered Rails for Elepower enabled.
-#	-	Both:     Electric Rails for Technic and Elepower enabled (default).
-rails_to_use (Which rails to use. ) enum both both,technic,elepower
